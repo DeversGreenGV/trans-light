@@ -1,0 +1,26 @@
+@media (max-width : 1400px){
+    .body__container .caption {
+        font-size: 2.6rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+    .first-screen li {
+        font-size: 1.2rem;
+    }
+    .body__container {
+        padding: 2rem 3rem;
+    }
+}
+@media (max-width : 1200px){
+        .first-screen nav{
+            height: max-content;
+            width: 50%;
+        }
+        
+}
+@media (max-width : 900px){
+    .first-screen nav{
+        display: none;
+    }
+
+}

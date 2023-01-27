@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+html {
+  /* font-size: 16px; */
+  font-size: calc( 12px + 4 * (100vw / 1920) );
+  /* font-size: 12px; */
+}
+
+body{
+   
+}
+
+.wrap{
+  width: 100%;
+}
+
+.wrapper{
+  max-width: 1110px;
+  flex: auto;
+  margin: 0 auto;
+}
+
+section{
+  display: flex;
+}
+
+
+
+.first-screen{
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  background: url(img/background1.jpg) no-repeat;
+  background-size: cover;
+}
+.first-screen__wrapper{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+header{
+  display: flex;
+  height: 5rem;
+  padding: 0 2rem;
+  background-color: #005ac19a;
+}
+
+.logo{
+  height: max-content;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo__img{
+  height: 3rem;
+  margin-right: 10px;
+}
+
+.logo__text{
+
+  font-size: 1.6rem;
+  text-align: center;
+
+}
+  .first-screen nav{
+    height: max-content;
+    width: 40%;
+  }
+  .first-screen ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+  }
+  .first-screen li{
+      font-size: 1rem;
+  }
+
+.first-screen__body{
+   flex: 1 1 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.body__container{
+  width:max-content;
+  padding: 2rem 5rem;
+  border-radius: 10px;
+  background-color: #005ac19a;
+}
+
+  .body__container .caption{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 5rem;
+    letter-spacing: 0.01em;
+    margin-bottom: 2rem;
+  }
+  .body__container .desc{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 22px;
+    margin-bottom: 2.5rem;
+  }
+  .body__container .button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: none;
+    border: 2px solid white;
+    padding: 0.8rem 2.5rem;
+    cursor: pointer;
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(2,49,94,1) 0%, rgba(47,112,175,1) 35%, rgba(185,132,140,1) 100%);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: azure; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
