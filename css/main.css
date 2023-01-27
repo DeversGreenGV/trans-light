@@ -98,7 +98,7 @@ header{
 }
 
   .body__container .caption{
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3rem;
@@ -127,6 +127,71 @@ header{
     padding: 0.8rem 2.5rem;
     cursor: pointer;
   }
+    .body__container .button:hover{
+      background-color: white;
+      color: #343434;
+    }
+
+
+
+
+
+
+
+
+.wrap{
+  padding: 9.4rem 7rem;
+  display: flex;
+}
+.wrap .section{
+  max-width: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrap h2{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+}
+.header{
+  display: flex;
+ 
+}
+.hr-block{
+  width: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 2.8rem;
+}
+  .hr-block hr{
+    /* border: 3px solid #005BC1; */
+    border: none;
+    height: 3px;
+    background-color: #005BC1;;
+  }
+    .hr-block hr:first-child{
+      width: 100%;
+    }
+    .hr-block hr:last-child{
+      width: 50%;
+    }
+
+.slaider{
+  display: flex;
+  justify-content: space-between;
+}
+.slaider-item{
+  width: 45%;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
