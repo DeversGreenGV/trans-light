@@ -61,7 +61,7 @@
         display: flex;
         align-items: center;
         font-weight: 400;
-        font-size: 5cqi;
+        font-size: clamp(1.2rem, 5cqi ,50cqi );
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #343434;
@@ -99,12 +99,13 @@
         }
         .slaider-item__text h4{
             margin-bottom: 1cqi;
-            font-size: 5cqi;
+            font-size: clamp(1.3rem, 5cqi ,50cqi );
         }
         .slaider-item__text p{
-            font-size: 2.5cqi;
+            font-size: clamp(1rem, 3cqi ,50cqi );
+            /* font-size: 2.5cqi; */
             font-weight: 400;
-            line-height: 3.7cqi;
+            line-height: clamp(1.5rem, 5cqi ,50cqi );;
         }
 }
 
