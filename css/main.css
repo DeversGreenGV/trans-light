@@ -140,13 +140,17 @@ header{
 
 
 .wrap{
-  padding: 9.4rem 7rem;
+  margin: 9.4rem 0;
+  padding: 0 4rem;
   display: flex;
+  flex-direction: column;
 }
 .wrap .section{
-  max-width: 1000px;
-  width: 1000px;
+  flex-direction: column;
+  max-width: 1110px;
+  width: 100%;
   margin: 0 auto;
+  margin-bottom: 9.4rem;
 }
 
 .wrap h2{
@@ -159,8 +163,9 @@ header{
   text-transform: uppercase;
   color: #343434;
 }
-.header{
+.section .header{
   display: flex;
+  margin-bottom: 5rem;
  
 }
 .hr-block{
@@ -189,10 +194,45 @@ header{
   justify-content: space-between;
 }
 .slaider-item{
-  width: 45%;
+  position: relative;
+  width: 48%;
+  height: 25rem;
+ 
 }
-
-
+  .slaider-item img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+.slaider-item__text{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    max-width: 15.6rem;
+    width: 100%;
+    padding: 1.25rem 1.5rem;
+    background-color: white;
+}
+  .slaider-item__text h4{
+    margin-bottom: 0.8rem;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+  }
+  .slaider-item__text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #343434;
+  }
 /* width */
 ::-webkit-scrollbar {
     width: 6px;
