@@ -61,7 +61,7 @@
         display: flex;
         align-items: center;
         font-weight: 400;
-        font-size: 4cqi;
+        font-size: 5cqi;
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #343434;
@@ -95,12 +95,16 @@
     }
         .slaider-item__text h4, .slaider-item__text p{
             color: white;
+            line-height: normal;
         }
         .slaider-item__text h4{
+            margin-bottom: 1cqi;
             font-size: 5cqi;
         }
         .slaider-item__text p{
             font-size: 2.5cqi;
+            font-weight: 400;
+            line-height: 3.7cqi;
         }
 }
 
