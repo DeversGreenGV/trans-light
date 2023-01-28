@@ -36,11 +36,8 @@
             font-size: 1.2rem;
             line-height: 2rem;
             margin-bottom: 2.5rem;
-            
         }
-            .body__container .desc br{
         
-            }
     .wrap {
         margin: 6rem 0;
         padding: 0 20px;
@@ -53,7 +50,7 @@
         align-items: center;
         margin-bottom: 8cqi;
     }
-    }
+    
      .slaider-item__text p{
 
      }        
@@ -83,7 +80,7 @@
        width: 100%;
        height: auto;
        margin-bottom: 5cqi;
-    }
+    } 
         .slaider-item img{
 
         }
@@ -106,6 +103,7 @@
             font-size: 2.5cqi;
         }
 }
+
 @media (max-width : 768px){
     .wrap .section {
 
