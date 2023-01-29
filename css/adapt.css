@@ -23,17 +23,22 @@
         display: none;
     }
     .first-screen__body {
+        container-type : inline-size;
         margin: 0 20px;
     }
     .body__container {
-        padding: 2rem 5%;
+        
+        padding: 5cqh 5cqw;
     }
         .body__container .caption{
-            font-size: 2.2rem;
-            line-height: 3.4rem;
+            
+            /* font-size: 2.6rem; */
+            font-size: clamp(2.1rem, 4.2cqi ,4.2cqi );
+            line-height: clamp(2.7rem, 5cqi ,5cqi );
+            margin-bottom: clamp(1.5rem, 2cqi ,2cqi );
         }
         .body__container .desc {
-            font-size: 1.2rem;
+            font-size: clamp(1.1rem, 2cqi ,2.2cqi );
             line-height: 2rem;
             margin-bottom: 2.5rem;
         }
@@ -61,7 +66,7 @@
         display: flex;
         align-items: center;
         font-weight: 400;
-        font-size: clamp(1.2rem, 5cqi ,50cqi );
+        font-size: clamp(1.8rem, 5cqi ,50cqi );
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #343434;
