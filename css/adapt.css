@@ -51,12 +51,13 @@
         container-type : inline-size;
     }
     .section .header {
-        container-type: inline-size;
+        display: flex;
+        margin-bottom: 6cqi;
+        height: 10cqi;
         align-items: center;
-        margin-bottom: 8cqi;
     }
     
-     .slaider-item__text p{
+     .slider-item__text p{
 
      }        
     .wrap .section{
@@ -78,18 +79,22 @@
     }
 
 
-    .slaider{
-        flex-direction: column;
+    .slider{
+       
     }
-    .slaider-item{
-       width: 100%;
+    
+    .slider-item{
+       width: 100% !important;
        height: auto;
        margin-bottom: 5cqi;
     } 
-        .slaider-item img{
+    
+    
+    
+        .slider-item img{
 
         }
-    .slaider-item__text{
+    .slider-item__text{
         position: absolute;
         bottom: 0;
         right: 0;
@@ -98,20 +103,39 @@
         padding: 4cqi;
         background-color: #005ac19a;
     }
-        .slaider-item__text h4, .slaider-item__text p{
+        .slider-item__text h4, .slider-item__text p{
             color: white;
             line-height: normal;
         }
-        .slaider-item__text h4{
+        .slider-item__text h4{
             margin-bottom: 1cqi;
             font-size: clamp(1.3rem, 5cqi ,50cqi );
         }
-        .slaider-item__text p{
+        .slider-item__text p{
             font-size: clamp(1rem, 3cqi ,50cqi );
             /* font-size: 2.5cqi; */
             font-weight: 400;
             line-height: clamp(1.5rem, 5cqi ,50cqi );;
         }
+
+        .slick-arrow {
+         
+            width: 10cqi;
+            height: 10cqi;
+            z-index: 1000;
+            top: -15.9cqi;
+            border: 2px solid #005BC1;
+        }
+        .slick-arrow.slick-prev {
+            right: 10.9cqi;
+            right: clamp(8%, 10.8%, 11%);
+        }
+        .slick-track{
+            display: block;
+            justify-content: baseline; 
+             
+             min-width: 0;
+          } 
 }
 
 @media (max-width : 768px){
@@ -128,19 +152,19 @@
     .slaider{
 
     }
-    .slaider-item{
+    .slider-item{
 
     }
-        .slaider-item img{
+        .slider-item img{
 
         }
-    .slaider-item__text{
+    .slider-item__text{
       
     }
-        .slaider-item__text h4{
+        .slider-item__text h4{
           
         }
-        .slaider-item__text p{
+        .slider-item__text p{
          
         }
 
