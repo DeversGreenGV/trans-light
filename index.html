@@ -26,13 +26,13 @@
                             TRANS<br>LIGHT
                         </a>
                     </div>
-                    <nav >
-                        <ul>
-                            <li> О компании</li>
-                            <li> Портфолио </li>
-                            <li> Каталог </li>
-                            <li> Сервисы </li>
-                            <li> Контакты </li>
+                    <nav class="nav">
+                        <ul class="nav__ul">
+                            <li class="nav__li"> О компании</li>
+                            <li class="nav__li"> Портфолио </li>
+                            <li class="nav__li"> Каталог </li>
+                            <li class="nav__li"> Сервисы </li>
+                            <li class="nav__li"> Контакты </li>
                         </ul>
                     </nav>
                 </div>
@@ -100,42 +100,271 @@
                         <hr>
                         <hr>
                     </div>
-                    <h2>Наши проекты</h2>
+                    <h2>Каталог продукции</h2>
                 </div>
-               
+                <div class="catalog">
+                        <div class="catalog__category">
+                            <p class="category__button category__button_active">
+                                ROBE
+                            </p>
+                            <p class="category__button">
+                                COMPULITE
+                            </p>
+                        </div>
+                        <div class="catalog__list">
+                            <div class="catalog__item">
+                                <div class="catalog__image">
+                                    <img src="css/img/catalog-1.png" alt="">
+                                </div>
+                                <div class="catalog__text">
+                                    <h4>Статичные<br>светодиодные приборы</h4>
+                                </div>
+                            </div>
+                            <div class="catalog__item">
+                                <div class="catalog__image">
+                                    <img src="css/img/catalog-2.png" alt="">
+                                </div>
+                                <div class="catalog__text">
+                                    <h4>Контроллеры</h4>
+                                </div>
+                            </div>
+                            <div class="catalog__item">
+                                <div class="catalog__image">
+                                    <img src="css/img/catalog-3.png" alt="">
+                                </div>
+                                <div class="catalog__text">
+                                    <h4>Аксессуары</h4>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
             </section>
-            
+            <section class="section">
+                <div class="header">
+                    <div class="hr-block">
+                        <hr>
+                        <hr>
+                    </div>
+                    <h2>Аренда оборудования</h2>
+                </div>
+                <div class="slider-container">
+                    <div class="slider-desc">
+                        <p>Мы занимаемся прокатом светового и сценического оборудования ведущих мировых производителей, таких как Robe, SGM, StudioDue, ChainMaster, Milos, Universal Effects, ArtLighting, MobilTech, Lampo, Martin, Spotlight, Compulite, Eurolite и др.</p>
+                    </div>
+                    <div class="slider slider_2">
+                        <div class="slider-wrap">
+                            <div class="slider-header">
+                                <p>Новое оборудование, предоставляемое в аренду:</p>
+                            </div>
+                            <div class="slider-list">
+                                <div class="slider-item">
+                                    <div class="slider-item__image">
+                                        <img src="css/img/catalog-3.png" alt="">
+                                    </div>
+                                   
+                                    <div class="slider-item__text">
+                                        <h4>Robe Robin ParFect 100</h4>
+                                        <ul>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>Источник света 12 светодиодов RGBW по 15 Вт каждый</p>
+                                            </li>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>Угол раскрытия 7°</p>
+                                            </li>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>В комплекте рассеивающая линза 40°</p>
+                                            </li>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>Потребляемая мощность 200 Вт</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="slider-item__image">
+                                        <img src="css/img/catalog-3.png" alt="">
+                                    </div>
+                                   
+                                    <div class="slider-item__text">
+                                        <h4>Robe Robin ParFect 100</h4>
+                                        <ul>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>Источник света 12 светодиодов RGBW по 15 Вт каждый</p>
+                                            </li>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>Угол раскрытия 7°</p>
+                                            </li>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>В комплекте рассеивающая линза 40°</p>
+                                            </li>
+                                            <li>
+                                                <span>	
+                                                    &#8226;
+                                                </span>
+                                                <p>Потребляемая мощность 200 Вт</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- <div class="slider-item">
+                            <div class="slider-item__image">
+                                <img src="css/img/slider-item2.png" alt="">
+                            </div>
+                            <div class="slider-item__text">
+                                <h4>ССК “ОЛИМП”</h4>
+                                <p>Световое оформление<br>форума “Шубы-2019”</p>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="slider-item__image">
+                                <img src="css/img/slider-item1.png" alt="">
+                            </div>
+                            <div class="slider-item__text">
+                                <h4>ССК “ОЛИМП”</h4>
+                                <p>Световое оформление<br>форума “Шубы-2019”</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                
+            </section>
+            <section class="section news">
+                <div class="header">
+                    <div class="header-container">
+                        <div class="hr-block">
+                            <hr>
+                            <hr>
+                        </div>
+                        <h2>Новости</h2>
+                    </div>
+                    <div class="header-button">
+                        <p>все новости</p>
+                    </div>
+                </div>
+                <div class="news-container">
+                    <div class="news-item news-item_big">
+                        <div class="img">
+                            <img src="css/img/news-1.jfif" alt="">
+                        </div>
+                        <div class="text">
+                            <div class="text__header">
+                                <h4>Семинар Milos</h4>
+                                <p class="text__date">27.01.2019</p>
+                            </div>
+                            <div class="text__body">
+                                <p>
+                                    Наши сотрудники прошли последний семинар от компании Milos.
+                                    Они получили новый объем знаний, который позволит нашей компании заниматься оборудованием не только мероприятий, но производственных помещений.
+                                </p>
+                            </div>
+                            <div class="text__further">
+                                Читать полностью...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-item news-item_small">
+                        
+                        <div class="text">
+                            <div class="text__header">
+                                <h4>Выставка Prolight+Sound NAMM Russia 2016</h4>
+                                
+                            </div>
+                            <div class="text__body">
+                                <p>
+                                    30 контрактов, тысячи воссторженных посетителей... 
+                                </p>
+                            </div>
+                            <div class="img">
+                                <img src="css/img/news-2.jfif" alt="">
+                                <p class="text__date">27.01.2019</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="news-item news-item_small">
+                        <div class="text">
+                            <div class="text__header">
+                                <h4>Семинар Robe</h4>
+                                
+                            </div>
+                            <div class="text__body">
+                                <p>
+                                    30 января 2017 года наши сотрудники побывали в Берлине.. 
+                                </p>
+                            </div>
+                            <div class="img">
+                                <img src="css/img/news-3.jfif" alt="">
+                                <p class="text__date">27.01.2019</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
-        <!-- <div class="slider slider_2">
-            <div class="slider-item">
-                <div class="slider-item__image">
-                    <img src="css/img/slider-item1.png" alt="">
+        <footer>
+            <div class="wrapper">
+                <div class="header">
+                    <div class="tel">
+                        (812) 710-80-25
+                    </div>
+                    <div class="adress">
+                        191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1
+                    </div>
+                    <div class="email">
+                        mail@translight.ru
+                    </div>
                 </div>
-               
-                <div class="slider-item__text">
-                    <h4>ССК “ОЛИМП”</h4>
-                    <p>Световое оформление<br>форума “Шубы-2019”</p>
+                <hr>
+                <div class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">О компании</li>
+                        <li class="nav__item">Каталог</li>
+                        <li class="nav__item">Наши проекты</li>
+                        <li class="nav__item">Новости</li>
+                        <li class="nav__item">Аренда</li>
+                        <li class="nav__item">Сервисное обслуживание</li>
+                    </ul>
                 </div>
+                <hr>
+                <div class="copyright">
+                    <div class="copyright__left">
+                        © 2019 ЗАО «Транслайт». Все права защищены.
+                    </div>
+                    <div class="copyright__right">
+                        Разработка и дизайн - D-e-n.ru
+                    </div>
+                </div>
+                
             </div>
-            <div class="slider-item">
-                <div class="slider-item__image">
-                    <img src="css/img/slider-item2.png" alt="">
-                </div>
-                <div class="slider-item__text">
-                    <h4>ССК “ОЛИМП”</h4>
-                    <p>Световое оформление<br>форума “Шубы-2019”</p>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-item__image">
-                    <img src="css/img/slider-item1.png" alt="">
-                </div>
-                <div class="slider-item__text">
-                    <h4>ССК “ОЛИМП”</h4>
-                    <p>Световое оформление<br>форума “Шубы-2019”</p>
-                </div>
-            </div>
-        </div> -->
+        </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="css/slick/slick.min.js"></script>
         <script src="js/script.js"></script>

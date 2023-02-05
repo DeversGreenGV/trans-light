@@ -12,10 +12,10 @@ $(document).ready(function() {
             },
         ]
     });
-    $('.slider_2').slick({
+    $('.slider_2 .slider-list').slick({
         arrows : true,
         dots : false,
-          slidesToShow: 2,
+          slidesToShow: 1,
           responsive: [
             {
                 breakpoint: 900,
